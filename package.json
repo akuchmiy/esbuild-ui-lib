@@ -1,5 +1,5 @@
 {
-  "name": "@akuchmiy/test-ui-lib",
+  "name": "@akuchmiy/esbuild-ui-lib",
   "version": "1.0.0",
   "description": "A simple ui lib for a test",
   "publishConfig": {
