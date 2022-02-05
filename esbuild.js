@@ -1,4 +1,5 @@
 const esbuild = require('esbuild')
+const esbuildCssModulesPlugin = require('esbuild-css-modules-plugin')
 const postCssPlugin = require('@deanc/esbuild-plugin-postcss')
 const autoprefixer = require('autoprefixer')
 const tailwindcss = require('@tailwindcss/postcss7-compat')
@@ -13,6 +14,7 @@ esbuild
 		sourcemap: true,
 		outdir: 'dist',
 		plugins: [
+			esbuildCssModulesPlugin({}),
 			postCssPlugin({
 				plugins: [postcssImport, tailwindcss, autoprefixer],
 			}),
