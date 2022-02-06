@@ -1,6 +1,6 @@
 {
   "name": "@akuchmiy/esbuild-ui-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple ui lib for a test",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/akuchmiy"
